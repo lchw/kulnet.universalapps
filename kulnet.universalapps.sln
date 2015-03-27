@@ -11,9 +11,22 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kulnet.universalapps.Window
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kulnet.universalapps.WindowsPhone", "kulnet.universalapps\kulnet.universalapps.WindowsPhone\kulnet.universalapps.WindowsPhone.csproj", "{1C32F062-390B-4074-9B66-7C2B43A862B3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "kulnet.universalapps.LukaszChwalewski", "kulnet.universalapps.LukaszChwalewski", "{54A2DFA0-EA69-434A-8E8C-6EE400FA846A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.PierwszaAplikacjaUniwersalna", "01.PierwszaAplikacjaUniwersalna", "{26FEA87F-807F-4F69-901A-72D267A0DBED}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "01.PierwszaAplikacjaUniwersalna.Shared", "kulnet.universalapps.LukaszChwalewski\01.PierwszaAplikacjaUniwersalna\01.PierwszaAplikacjaUniwersalna.Shared\01.PierwszaAplikacjaUniwersalna.Shared.shproj", "{A64E794C-83DF-430C-B802-B340C2604D98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.PierwszaAplikacjaUniwersalna.Windows", "kulnet.universalapps.LukaszChwalewski\01.PierwszaAplikacjaUniwersalna\01.PierwszaAplikacjaUniwersalna.Windows\01.PierwszaAplikacjaUniwersalna.Windows.csproj", "{2311EBED-189A-443D-A531-16C311BAF15D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.PierwszaAplikacjaUniwersalna.WindowsPhone", "kulnet.universalapps.LukaszChwalewski\01.PierwszaAplikacjaUniwersalna\01.PierwszaAplikacjaUniwersalna.WindowsPhone\01.PierwszaAplikacjaUniwersalna.WindowsPhone.csproj", "{233A33F6-00F5-4804-AE40-18C2687CB028}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		kulnet.universalapps.LukaszChwalewski\01.PierwszaAplikacjaUniwersalna\01.PierwszaAplikacjaUniwersalna.Shared\01.PierwszaAplikacjaUniwersalna.Shared.projitems*{a64e794c-83df-430c-b802-b340c2604d98}*SharedItemsImports = 13
 		kulnet.universalapps\kulnet.universalapps.Shared\kulnet.universalapps.Shared.projitems*{7416552e-7360-41e6-8d10-1eaf218e7229}*SharedItemsImports = 13
+		kulnet.universalapps.LukaszChwalewski\01.PierwszaAplikacjaUniwersalna\01.PierwszaAplikacjaUniwersalna.Shared\01.PierwszaAplikacjaUniwersalna.Shared.projitems*{2311ebed-189a-443d-a531-16c311baf15d}*SharedItemsImports = 4
+		kulnet.universalapps.LukaszChwalewski\01.PierwszaAplikacjaUniwersalna\01.PierwszaAplikacjaUniwersalna.Shared\01.PierwszaAplikacjaUniwersalna.Shared.projitems*{233a33f6-00f5-4804-ae40-18c2687cb028}*SharedItemsImports = 4
 		kulnet.universalapps\kulnet.universalapps.Shared\kulnet.universalapps.Shared.projitems*{1c32f062-390b-4074-9b66-7c2b43a862b3}*SharedItemsImports = 4
 		kulnet.universalapps\kulnet.universalapps.Shared\kulnet.universalapps.Shared.projitems*{94209586-5b68-4ed8-9b31-b076069a538c}*SharedItemsImports = 4
 	EndGlobalSection
@@ -72,6 +85,50 @@ Global
 		{1C32F062-390B-4074-9B66-7C2B43A862B3}.Release|x86.ActiveCfg = Release|x86
 		{1C32F062-390B-4074-9B66-7C2B43A862B3}.Release|x86.Build.0 = Release|x86
 		{1C32F062-390B-4074-9B66-7C2B43A862B3}.Release|x86.Deploy.0 = Release|x86
+		{2311EBED-189A-443D-A531-16C311BAF15D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2311EBED-189A-443D-A531-16C311BAF15D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2311EBED-189A-443D-A531-16C311BAF15D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2311EBED-189A-443D-A531-16C311BAF15D}.Debug|ARM.ActiveCfg = Debug|ARM
+		{2311EBED-189A-443D-A531-16C311BAF15D}.Debug|ARM.Build.0 = Debug|ARM
+		{2311EBED-189A-443D-A531-16C311BAF15D}.Debug|ARM.Deploy.0 = Debug|ARM
+		{2311EBED-189A-443D-A531-16C311BAF15D}.Debug|x64.ActiveCfg = Debug|x64
+		{2311EBED-189A-443D-A531-16C311BAF15D}.Debug|x64.Build.0 = Debug|x64
+		{2311EBED-189A-443D-A531-16C311BAF15D}.Debug|x64.Deploy.0 = Debug|x64
+		{2311EBED-189A-443D-A531-16C311BAF15D}.Debug|x86.ActiveCfg = Debug|x86
+		{2311EBED-189A-443D-A531-16C311BAF15D}.Debug|x86.Build.0 = Debug|x86
+		{2311EBED-189A-443D-A531-16C311BAF15D}.Debug|x86.Deploy.0 = Debug|x86
+		{2311EBED-189A-443D-A531-16C311BAF15D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2311EBED-189A-443D-A531-16C311BAF15D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2311EBED-189A-443D-A531-16C311BAF15D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2311EBED-189A-443D-A531-16C311BAF15D}.Release|ARM.ActiveCfg = Release|ARM
+		{2311EBED-189A-443D-A531-16C311BAF15D}.Release|ARM.Build.0 = Release|ARM
+		{2311EBED-189A-443D-A531-16C311BAF15D}.Release|ARM.Deploy.0 = Release|ARM
+		{2311EBED-189A-443D-A531-16C311BAF15D}.Release|x64.ActiveCfg = Release|x64
+		{2311EBED-189A-443D-A531-16C311BAF15D}.Release|x64.Build.0 = Release|x64
+		{2311EBED-189A-443D-A531-16C311BAF15D}.Release|x64.Deploy.0 = Release|x64
+		{2311EBED-189A-443D-A531-16C311BAF15D}.Release|x86.ActiveCfg = Release|x86
+		{2311EBED-189A-443D-A531-16C311BAF15D}.Release|x86.Build.0 = Release|x86
+		{2311EBED-189A-443D-A531-16C311BAF15D}.Release|x86.Deploy.0 = Release|x86
+		{233A33F6-00F5-4804-AE40-18C2687CB028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{233A33F6-00F5-4804-AE40-18C2687CB028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{233A33F6-00F5-4804-AE40-18C2687CB028}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{233A33F6-00F5-4804-AE40-18C2687CB028}.Debug|ARM.ActiveCfg = Debug|ARM
+		{233A33F6-00F5-4804-AE40-18C2687CB028}.Debug|ARM.Build.0 = Debug|ARM
+		{233A33F6-00F5-4804-AE40-18C2687CB028}.Debug|ARM.Deploy.0 = Debug|ARM
+		{233A33F6-00F5-4804-AE40-18C2687CB028}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{233A33F6-00F5-4804-AE40-18C2687CB028}.Debug|x86.ActiveCfg = Debug|x86
+		{233A33F6-00F5-4804-AE40-18C2687CB028}.Debug|x86.Build.0 = Debug|x86
+		{233A33F6-00F5-4804-AE40-18C2687CB028}.Debug|x86.Deploy.0 = Debug|x86
+		{233A33F6-00F5-4804-AE40-18C2687CB028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{233A33F6-00F5-4804-AE40-18C2687CB028}.Release|Any CPU.Build.0 = Release|Any CPU
+		{233A33F6-00F5-4804-AE40-18C2687CB028}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{233A33F6-00F5-4804-AE40-18C2687CB028}.Release|ARM.ActiveCfg = Release|ARM
+		{233A33F6-00F5-4804-AE40-18C2687CB028}.Release|ARM.Build.0 = Release|ARM
+		{233A33F6-00F5-4804-AE40-18C2687CB028}.Release|ARM.Deploy.0 = Release|ARM
+		{233A33F6-00F5-4804-AE40-18C2687CB028}.Release|x64.ActiveCfg = Release|Any CPU
+		{233A33F6-00F5-4804-AE40-18C2687CB028}.Release|x86.ActiveCfg = Release|x86
+		{233A33F6-00F5-4804-AE40-18C2687CB028}.Release|x86.Build.0 = Release|x86
+		{233A33F6-00F5-4804-AE40-18C2687CB028}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -80,5 +137,9 @@ Global
 		{7416552E-7360-41E6-8D10-1EAF218E7229} = {1FB9D668-094F-4530-9861-55F8A4A7B27E}
 		{94209586-5B68-4ED8-9B31-B076069A538C} = {1FB9D668-094F-4530-9861-55F8A4A7B27E}
 		{1C32F062-390B-4074-9B66-7C2B43A862B3} = {1FB9D668-094F-4530-9861-55F8A4A7B27E}
+		{26FEA87F-807F-4F69-901A-72D267A0DBED} = {54A2DFA0-EA69-434A-8E8C-6EE400FA846A}
+		{A64E794C-83DF-430C-B802-B340C2604D98} = {26FEA87F-807F-4F69-901A-72D267A0DBED}
+		{2311EBED-189A-443D-A531-16C311BAF15D} = {26FEA87F-807F-4F69-901A-72D267A0DBED}
+		{233A33F6-00F5-4804-AE40-18C2687CB028} = {26FEA87F-807F-4F69-901A-72D267A0DBED}
 	EndGlobalSection
 EndGlobal
